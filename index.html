@@ -1,123 +1,483 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>RILAB | Official Band</title>
+<title>RILAB — Labu Ali | Official Website</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #080808;
-      color: white;
-      text-align: center;
-    }
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 
-    header {
-      padding: 60px 20px;
-      background: linear-gradient(135deg, #000000, #24101f);
-    }
+body{
+    font-family:Arial,"Noto Sans Bengali",sans-serif;
+    background:#070707;
+    color:#eee;
+    line-height:1.8;
+}
 
-    h1 {
-      font-size: 55px;
-      letter-spacing: 8px;
-      margin: 0;
-    }
+header{
+    min-height:430px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+    background:
+    radial-gradient(circle at center,#24152c 0%,#0b0b0b 55%,#000 100%);
+    border-bottom:1px solid #333;
+}
 
-    .tagline {
-      color: #aaa;
-      font-size: 18px;
-      margin-top: 15px;
-    }
+.logo{
+    font-size:65px;
+    letter-spacing:8px;
+    font-weight:bold;
+}
 
-    section {
-      padding: 45px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
+.subtitle{
+    color:#aaa;
+    font-size:18px;
+    margin-top:10px;
+}
 
-    h2 {
-      font-size: 30px;
-    }
+.founder{
+    margin-top:25px;
+    color:#ddd;
+}
 
-    p {
-      color: #ccc;
-      font-size: 17px;
-      line-height: 1.8;
-    }
+nav{
+    position:sticky;
+    top:0;
+    z-index:10;
+    background:#090909;
+    border-bottom:1px solid #292929;
+    padding:12px 5px;
+    text-align:center;
+}
 
-    .album {
-      border: 1px solid #333;
-      padding: 25px;
-      margin-top: 25px;
-      border-radius: 15px;
-      background: #111;
-    }
+nav a{
+    color:#ddd;
+    text-decoration:none;
+    margin:0 8px;
+    font-size:14px;
+}
 
-    footer {
-      padding: 30px;
-      background: #050505;
-      color: #777;
-    }
-  </style>
+nav a:hover{
+    color:white;
+}
+
+section{
+    max-width:950px;
+    margin:auto;
+    padding:65px 20px;
+}
+
+h2{
+    font-size:30px;
+    margin-bottom:25px;
+    border-left:4px solid #888;
+    padding-left:14px;
+}
+
+h3{
+    font-size:23px;
+    margin-bottom:12px;
+}
+
+p{
+    color:#cfcfcf;
+    margin-bottom:18px;
+}
+
+.story{
+    background:#101010;
+    border:1px solid #292929;
+    border-radius:16px;
+    padding:25px;
+    margin-top:20px;
+}
+
+.album{
+    margin-top:25px;
+    padding:28px;
+    background:#0e0e0e;
+    border:1px solid #303030;
+    border-radius:18px;
+}
+
+.album-title{
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+.album-subtitle{
+    color:#999;
+    margin-bottom:25px;
+}
+
+.song{
+    border-top:1px solid #292929;
+    padding:22px 0;
+}
+
+.song:first-of-type{
+    border-top:none;
+}
+
+.song-number{
+    color:#777;
+    font-size:14px;
+}
+
+.song h3{
+    margin:3px 0 8px;
+}
+
+.quote{
+    border-left:3px solid #666;
+    padding-left:15px;
+    color:#bbb;
+    font-style:italic;
+}
+
+.timeline{
+    border-left:2px solid #444;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:28px;
+}
+
+footer{
+    text-align:center;
+    padding:45px 20px;
+    background:#050505;
+    color:#777;
+    border-top:1px solid #222;
+}
+
+.small{
+    color:#777;
+    font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h1>RILAB</h1>
-    <div class="tagline">Music • Mystery • Emotion</div>
-  </header>
+<header>
+    <div class="logo">RILAB</div>
+    <div class="subtitle">Music • Mystery • Emotion</div>
 
-  <section>
-    <h2>RILAB সম্পর্কে</h2>
-
-    <p>
-      RILAB একটি নতুন বাংলা মিউজিক ব্যান্ড।
-      আমাদের সঙ্গীতে থাকবে রহস্য, অন্ধকার,
-      ভালোবাসা, বিচ্ছেদ এবং গভীর অনুভূতির গল্প।
-    </p>
-  </section>
-
-  <section>
-    <h2>Artist</h2>
-
-    <p>
-      <strong>Labu Ali</strong><br>
-      Vocalist • Guitarist • Lyricist • Composer
-    </p>
-  </section>
-
-  <section>
-    <h2>Album</h2>
-
-    <div class="album">
-      <h2>জাদু টোনা</h2>
-
-      <p>
-        RILAB-এর রহস্যময় জগতের প্রথম অ্যালবাম।
-        প্রতিটি গানে থাকবে ভিন্ন এক অন্ধকার ও
-        রহস্যময় অনুভূতি।
-      </p>
-
-      <h3>প্রথম গান — মন্ত্র</h3>
+    <div class="founder">
+        <strong>Labu Ali</strong><br>
+        Vocalist • Guitarist • Lyricist • Composer<br>
+        Founder of RILAB
     </div>
-  </section>
+</header>
 
-  <section>
-    <h2>আমাদের জগৎ</h2>
+<nav>
+    <a href="#rilab">RILAB</a>
+    <a href="#labu">Labu Ali</a>
+    <a href="#jadu">জাদু টোনা</a>
+    <a href="#amarage">আমার আগে</a>
+</nav>
 
-    <p>
-      “যে অনুভূতিগুলো সাধারণ পৃথিবীতে বলা যায় না,
-      সেগুলোই RILAB-এর সঙ্গীতে গল্প হয়ে ওঠে।”
-    </p>
-  </section>
 
-  <footer>
-    © 2026 RILAB — Official Website
-  </footer>
+<section id="rilab">
 
-</body>
-</html>
+<h2>RILAB — নামের গল্প</h2>
+
+<div class="story">
+
+<p>
+RILAB একটি নামের চেয়েও বেশি কিছু। এটি Labu Ali-এর
+স্বপ্ন, সংগীত এবং নিজের একটি আলাদা পরিচয় তৈরি করার
+চেষ্টার অংশ।
+</p>
+
+<p>
+“RI” এসেছে Rimi নাম থেকে এবং “LAB” এসেছে Labu নাম
+থেকে। এই দুই অংশ মিলেই তৈরি হয়েছে <strong>RILAB</strong>।
+</p>
+
+<p>
+RILAB-এর সংগীতে থাকবে অন্ধকার, রহস্য, ভালোবাসা,
+বিচ্ছেদ, স্মৃতি এবং মানুষের মনের অজানা অনুভূতির গল্প।
+গানের মাধ্যমে একটি আলাদা জগত তৈরি করাই RILAB-এর
+মূল ধারণা।
+</p>
+
+<p class="quote">
+“একটি নাম থেকে শুরু হবে একটি সংগীতযাত্রা।”
+</p>
+
+</div>
+</section>
+
+
+<section id="labu">
+
+<h2>Labu Ali — আমার জীবনকাহিনী</h2>
+
+<div class="story">
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>স্বপ্নের শুরু</h3>
+<p>
+ছোটবেলা থেকেই Labu Ali-এর মনে সংগীত নিয়ে আলাদা
+একটি স্বপ্ন তৈরি হয়। গিটার, গান, সুর এবং নিজের
+কথাগুলোকে সংগীতের মাধ্যমে প্রকাশ করার ইচ্ছা ধীরে
+ধীরে বড় হতে থাকে।
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>নিজের পরিচয় তৈরি করার চেষ্টা</h3>
+<p>
+Labu Ali ভবিষ্যতে একজন Bangladeshi band artist,
+vocalist, guitarist, lyricist এবং composer হিসেবে
+নিজের পরিচয় তৈরি করতে চান।
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>RILAB-এর জন্ম</h3>
+<p>
+প্রথমদিকে RILAB-এর পথচলা শুরু হচ্ছে একা। সময়ের
+সঙ্গে প্রয়োজন অনুযায়ী অন্য সদস্য ও বাদ্যযন্ত্র যুক্ত
+হওয়ার পরিকল্পনা রয়েছে।
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>গানের নিজস্ব জগৎ</h3>
+<p>
+রহস্য, ছায়া, অন্ধকার, ভালোবাসা ও বিচ্ছেদের অনুভূতি
+মিলিয়ে Labu Ali নিজের একটি আলাদা musical universe
+তৈরি করতে চান।
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>ভবিষ্যতের লক্ষ্য</h3>
+<p>
+বাংলা ভাষার পাশাপাশি ভবিষ্যতে Hindi ও English গানও
+তৈরি করার স্বপ্ন রয়েছে। বড় মঞ্চে নিজের গান নিয়ে
+পারফর্ম করা এবং বাংলাদেশের সংগীতকে প্রতিনিধিত্ব করা
+এই যাত্রার বড় স্বপ্নগুলোর একটি।
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section id="jadu">
+
+<h2>অ্যালবাম — জাদু টোনা</h2>
+
+<div class="album">
+
+<div class="album-title">জাদু টোনা</div>
+
+<div class="album-subtitle">
+একটি রহস্যময় Dark Rock Musical Universe
+</div>
+
+<p>
+“জাদু টোনা” অ্যালবামের প্রতিটি গান একটি আলাদা
+রহস্যময় দরজা। এখানে বাস্তবতা, স্মৃতি, ছায়া,
+ভালোবাসা, বিচ্ছেদ এবং অজানা অনুভূতি একসঙ্গে মিশে
+একটি অন্ধকার জগত তৈরি করে।
+</p>
+
+
+<div class="song">
+<span class="song-number">01</span>
+<h3>মন্ত্র</h3>
+
+<p>
+অ্যালবামের প্রথম দরজা। একটি পুরোনো অদৃশ্য জগতের
+মধ্যে ঢুকে যাওয়ার অনুভূতি। দেয়ালের ছায়া, অজানা
+শব্দ এবং মন্ত্রের মতো জেগে ওঠা স্মৃতি গানটির মূল
+ভাবনা।
+</p>
+
+<p class="quote">
+“হারিয়ে যাই মন্ত্র জগতে,
+খুঁজবো চোখে—পড়বে না আমাকে।”
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">02</span>
+<h3>কালো চাঁদ</h3>
+
+<p>
+রাতের আকাশে চাঁদ আছে, কিন্তু তার আলো যেন হারিয়ে
+গেছে। ভালোবাসা হারানোর পর পৃথিবীকে অন্যরকম
+দেখতে পাওয়ার একটি রহস্যময় গল্প।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">03</span>
+<h3>অচেনা ইশারা</h3>
+
+<p>
+কেউ যেন দূর থেকে ডাকছে। কিন্তু কে ডাকছে, কোথায়
+ডাকছে—তার কোনো উত্তর নেই। অজানা কোনো ইশারার
+পেছনে ছুটে চলার গল্প।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">04</span>
+<h3>ছায়ার ডাক</h3>
+
+<p>
+পরিচিত পৃথিবীর মাঝেও কখনো নিজের ছায়াই অচেনা
+মনে হয়। পুরোনো স্মৃতি এবং হারিয়ে যাওয়া মানুষের
+ডাককে ছায়ার প্রতীকের মাধ্যমে প্রকাশ করবে গানটি।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">05</span>
+<h3>ইশারা</h3>
+
+<p>
+কিছু অনুভূতি মুখে বলা যায় না। চোখ, নীরবতা,
+বাতাস কিংবা একটি ছোট্ট সংকেত অনেক কথা বলে দেয়।
+“ইশারা” সেই না-বলা কথার গল্প।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">06</span>
+<h3>মনতো</h3>
+
+<p>
+নিজের মনের সঙ্গে নিজের কথোপকথন। বাইরে সবকিছু
+স্বাভাবিক থাকলেও ভেতরে জমে থাকা অদ্ভুত অনুভূতি
+এখানে ধীরে ধীরে প্রকাশ পাবে।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">07</span>
+<h3>দুইশো বছর আগে</h3>
+
+<p>
+একটি কল্পিত অতীতের দরজা। যেন কোনো পুরোনো সময়ের
+ভালোবাসা, রহস্য এবং অসমাপ্ত গল্প আজও বর্তমানের
+কাউকে অনুসরণ করছে।
+</p>
+</div>
+
+</div>
+</section>
+
+
+<section id="amarage">
+
+<h2>অ্যালবাম — আমার আগে</h2>
+
+<div class="album">
+
+<div class="album-title">আমার আগে</div>
+
+<div class="album-subtitle">
+ভালোবাসা • অতীত • প্রশ্ন • অনিশ্চয়তা
+</div>
+
+<p>
+“আমার আগে” একটি সম্পর্কের ভেতরের সেই প্রশ্নগুলোকে
+নিয়ে তৈরি একটি অ্যালবাম—যেখানে ভালোবাসার মানুষটির
+জীবনে নিজের আগে কেউ ছিল কি না, পুরোনো স্মৃতি কীভাবে
+বর্তমানকে প্রভাবিত করতে পারে এবং ভালোবাসার সঙ্গে
+অনিশ্চয়তা কীভাবে মিশে যায়—এসব অনুভূতি গল্পের
+মাধ্যমে প্রকাশ করা হবে।
+</p>
+
+
+<div class="song">
+<span class="song-number">01</span>
+<h3>শেষ প্রশ্ন</h3>
+<p>
+সব প্রশ্নের শেষে যে একটি প্রশ্ন থেকে যায়—তার উত্তর
+খোঁজার গল্প।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">02</span>
+<h3>আমার আগে</h3>
+<p>
+ভালোবাসার মানুষটির জীবনে আমার আসার আগের সময়কে
+নিয়ে তৈরি মূল গল্প।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">03</span>
+<h3>পুরোনো নাম</h3>
+<p>
+বর্তমান সম্পর্কের মাঝেও অতীতের একটি নাম কীভাবে
+মনে প্রশ্ন তৈরি করতে পারে।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">04</span>
+<h3>তোমার অতীত</h3>
+<p>
+ভালোবাসার মানুষটির অতীতকে বোঝার চেষ্টা এবং নিজের
+মনের দ্বন্দ্বের গল্প।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">05</span>
+<h3>যে গল্প জানি না</h3>
+<p>
+একটি মানুষের জীবনের এমন একটি অধ্যায়, যার পুরোটা
+কখনো জানা সম্ভব নয়।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">06</span>
+<h3>তবুও তুমি</h3>
+<p>
+অনেক প্রশ্নের পরেও ভালোবাসার মানুষটিকে ভালোবাসার
+অনুভূতি।
+</p>
+</div>
+
+
+<div class="song">
+<span class="song-number">07</span>
+<h3>দ
